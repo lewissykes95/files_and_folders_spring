@@ -25,8 +25,6 @@ public class Person {
     private List<Folder> folders;
 
 
-
-
     public Person() {
 
     }
@@ -54,12 +52,12 @@ public class Person {
         this.name = name;
     }
 
-    public List<Folder> getFolder() {
+    public List<Folder> getFolders() {
         return folders;
     }
 
-    public void setFolder(List<Folder> folder) {
-        this.folders = folder;
+    public void setFolder(List<Folder> folders) {
+        this.folders = folders;
     }
 
     public void addFolder(Folder folder) {

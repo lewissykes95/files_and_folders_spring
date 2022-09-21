@@ -25,6 +25,7 @@ public class Folder {
 
     @ManyToOne
     @JoinColumn(name="person_id", nullable = false)
+    @JsonIgnoreProperties({"folder"})
     private Person person;
 
 
